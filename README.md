@@ -68,5 +68,3 @@ I am always interested in discussing low-level engineering, embedded architectur
 - **Location:** Santa Maria da Feira, Aveiro, Portugal
 - **LinkedIn:** [linkedin.com/in/placeholder](https://linkedin.com/in/YOUR_USERNAME)
 - **Email:** [duartepombomartins@gmail.com](mailto:duartepombomartins@gmail.com)
-
-![snake gif](https://github.com/Duarte-Pombo/Duarte-Pombo/blob/output/github-snake-dark.svg)
