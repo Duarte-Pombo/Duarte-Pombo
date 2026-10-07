@@ -25,7 +25,12 @@ I focus on understanding software from the bare metal up—from memory layout, i
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| **Java/OLLIR Compiler** | Compiler backend converting OLLIR intermediate representations into executable Jasmin JVM bytecode. Handled instruction selection, register allocation, and stack depth optimization. | `Java` `ANTLR` `Jasmin` |
+| **Java-- Compiler** | A compiler for Java--, a subset of Java, that translates source code to JVM bytecode via AST, semantic analysis, optimizations, OLLIR, register allocation, and Jasmin. | `Java` `ANTLR` `Jasmin` |
+|**GEMM Cache & Scalling Analysis**| Benchmarking GEMM optimization: L1/L2 cache locality, AVX2 SIMD, and OpenMP multi-core scaling. Includes C++ vs. Rust profiling using Linux perf on hybrid CPU topology. | `C` `Rust` `Linux perf`|
+| **POSIX Serial Protocol** | A modular, reliable point-to-point data link and application layer protocol in C implementing Stop-and-Wait ARQ, byte stuffing, and POSIX serial communication over noisy channels. | `C` `Linux socat` |
+| **Concurrent TCP Chat Server** |  A multi-threaded, room-based TCP chat server in Java 21 featuring custom bounded blocking queues, token-based session recovery, and local Ollama LLM integration. | `Java` `Docker` `ngrok`| 
+| **MINIX Whack a Mole** | A bare-metal Whack-a-Mole arcade game built in C on MINIX 3, featuring custom low-level device drivers for direct hardware interrupts (KBC, Timer, PS/2 Mouse) and VBE graphics rendering. | `C` `MINIX 3` |
+| **Knapsack Algorithmic Analysis** | High-performance C++ implementation and comparative analysis of 0/1 Knapsack algorithms (Brute Force, Dynamic Programming, Branch & Bound, and Greedy) for delivery truck pallet loading. | `C++` `CMake` |
 | **Microcontroller Kernel** *(WIP)* | Minimal preemptive kernel targeting bare-metal microcontrollers, implementing basic context switching, thread scheduling, and peripheral register mapping. | `C` `Assembly` `ESP32` |
 
 #### Machine Learning & AI
@@ -39,17 +44,17 @@ I focus on understanding software from the bare metal up—from memory layout, i
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| **Awared** | Cross-platform personal finance mobile app mapping affective states to expenditure behaviors, providing automated behavioral analytics. | `Flutter` `Dart` `Firebase` |
+| **Awared** | Cross-platform personal finance mobile app mapping affective states to expenditure behaviors, providing automated behavioral analytics. | `Flutter` `Dart` `Firebase` | 
 | **CTPB Club Manager** | Desktop management system handling membership records, accounting ledger entries, and tournament operations for a regional tennis club. | `Python` `Tkinter` `SQLite` |
 
 ---
 
 ### Technical Stack
 
-- **Languages:** C, C++, Python, Java, x86/ARM/Xtensa Assembly, Dart, SQL
+- **Languages:** C, C++, Python, Java, Rust, x86/ARM/Xtensa Assembly, Bash, SQL
 - **Systems & Embedded:** ESP32 / ESP-IDF, FreeRTOS, POSIX, Linux Kernel fundamentals, GDB, Valgrind
 - **Machine Learning & Math:** PyTorch, Scikit-learn, NumPy, Pandas, NLP pipelines, Graph Theory
-- **Tooling & Environments:** Git, Make/CMake, Docker, Linux (Ubuntu/Debian), VS Code, Neovim
+- **Tooling & Environments:** Git, Make/CMake, Docker, Linux, Neovim
 
 ---
 
