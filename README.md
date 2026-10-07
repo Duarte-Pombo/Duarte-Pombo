@@ -38,7 +38,7 @@ I focus on understanding software from the bare metal up—from memory layout, i
 | Project | Description | Stack |
 | :--- | :--- | :--- |
 | **SNS24 Healthcare Triage** | NLP and graph-driven healthcare companion modeled after Portugal's SNS24 service. Extracts symptoms via text processing, runs preliminary diagnostic inference, and computes optimal facility routing. | `Python` `NLP` `NetworkX` |
-| **Autonomous Fleet Dispatcher & Route Optimizer** | Generic state-space problem solver implementing informed search algorithms ($A^*$, IDA*, minimax) with domain-specific pruning strategies. | `Python` `Algorithms` |
+| **Autonomous Fleet Dispatcher & Route Optimizer** | High-performance fleet routing engine for the Google Hash Code VRPTW challenge. Benchmarks exact, constructive heuristic, decentralized, and metaheuristic solvers (Simulated Annealing, Genetic Algorithm, Multi-Agent) with an independent discrete-event simulation engine.| `Python` `Algorithms` |
 
 #### Software Engineering & Tooling
 
