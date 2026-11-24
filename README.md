@@ -6,7 +6,7 @@
 [![Open to Work](https://img.shields.io/badge/Status-Open_to_Opportunities-2ea44f?style=flat-square)](#get-in-touch)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/duarte-miguel-pombo-martins)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=flat-square&logo=gmail)](mailto:duartepombo.business@gmail.com)
-[![CV](https://img.shields.io/badge/Resume-Download_CV-555555?style=flat-square&logo=read-the-docs)](https://YOUR_CV_LINK.com)
+[![CV](https://img.shields.io/badge/Resume-Download_CV-555555?style=flat-square&logo=read-the-docs)](https://github.com/Duarte-Pombo/Duarte-Pombo-CV/raw/main/Duarte_Pombo.pdf)
 
 ---
 
